@@ -34,7 +34,7 @@
 在'_\layouts\footer.php_'文件中加载了'<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>'，而这个JS只有翻墙才能加载，所以把该JS拷贝到'_\libs\Js_'文件夹下保存，在'**footer.php**'中引用本地的'**jquery.min.js**'。
 
 # 2、解决汉化问题：
-系统本身为全英文，汉化只需要将文件中对应的英文替换成汉字即可。所有替换文件在文件夹'_\layouts\_'和根目录中。
+系统本身为全英文，汉化只需要将文件中对应的英文替换成汉字即可。所有替换文件在文件夹'\layouts\'和根目录中。
 
 ### 修复
 
@@ -49,7 +49,7 @@
 
 3.修改 includes /config.php 并更改变量以匹配您的主机，数据库，用户名和密码。
 
-4.更改uploads文件夹中的所有文件夹权限，或者将它们添加到组呼叫 `www` （如果可用）或 '777` 。
+4.更改uploads文件夹中的所有文件夹权限，或者将它们添加到组呼叫 'www' （如果可用）或 '777' 。
 
 5.然后输入 ** username ** 和 ** password ** 进行登录：
 
