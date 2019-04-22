@@ -31,7 +31,9 @@
 - 备注
 
 # 1、解决速度加载问题：
-在'_\layouts\footer.php_'文件中加载了'<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>'，而这个JS只有翻墙才能加载，所以把该JS拷贝到'_\libs\Js_'文件夹下保存，在'**footer.php**'中引用本地的'**jquery.min.js**'。
+在'_\layouts\footer.php_'文件中加载了
+'<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>'，
+而这个JS只有翻墙才能加载，所以把该JS拷贝到'_\libs\Js_'文件夹下保存，在'**footer.php**'中引用本地的'**jquery.min.js**'。
 
 # 2、解决汉化问题：
 系统本身为全英文，汉化只需要将文件中对应的英文替换成汉字即可。所有替换文件在文件夹'\layouts\'和根目录中。
