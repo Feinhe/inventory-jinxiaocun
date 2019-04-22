@@ -1,9 +1,6 @@
 ## 欢迎来到 简易仓库管理系统(inventory) 【中文版】
 
-这是一套建议的仓库管理系统，是国外网友开发，由 Louis He （https://www.louishe.com） 翻译的中文版。
-该应用程序最初由** Saeed Nawaz **创建，使用[php]（http:php.net） ，[mysql]（https://www.mysql.com） 和 [bootstrap]（http：// getbootstrap. COM） 。
-
-它是一个基于网络的库存系统，可以让您跟踪仓库或企业中现有产品的数量买卖价格。在创建新产品时，您可以设置数量，购买和销售价格。
+这是一套建议的仓库管理系统，是国外网友开发，由 Louis He （https://www.louishe.com） 翻译的中文版。该应用程序最初由** Saeed Nawaz **创建，使用 [php](http:php.net) ，[mysql](https://www.mysql.com) 和 [bootstrap](http：// getbootstrap. COM) 。
 
 ![images](https://www.louishe.com/wp-content/uploads/2019/04/12.png)
 ![images](https://www.louishe.com/wp-content/uploads/2019/04/13.png)
@@ -26,28 +23,18 @@
 #### 7.1创建报告
 #### 7.2报告分析
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+它是一个基于网络的库存系统，可以让您跟踪仓库或企业中现有产品的数量买卖价格。在创建新产品时，您可以设置数量，购买和销售价格。
 
 ```markdown
-Syntax highlighted code block
+下面的备注内容对于你修改源码很重要，请仔细阅读：
 
-# Header 1
-## Header 2
-### Header 3
+- 备注
 
-- Bulleted
-- List
+# 1、解决速度加载问题：
+在'_\layouts\footer.php_'文件中加载了'<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>'，而这个JS只有翻墙才能加载，所以把该JS拷贝到'_\libs\Js_'文件夹下保存，在'**footer.php**'中引用本地的'**jquery.min.js**'。
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
+# 2、解决汉化问题：
+系统本身为全英文，汉化只需要将文件中对应的英文替换成汉字即可。所有替换文件在文件夹'_\layouts\_'和根目录中。
 
 ### 修复
 
