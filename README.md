@@ -1,6 +1,6 @@
 ## 欢迎来到 简易仓库管理系统(inventory) 【中文版】
 
-这是一套建议的仓库管理系统，是国外网友开发，由 [Louishe](https:www.louishe.com) 翻译的中文版。该应用程序最初由** Saeed Nawaz **创建，使用 [php](http:php.net) ，[mysql](https:www.mysql.com) 和 [bootstrap](http:getbootstrap.com) 。
+这是一套简易的仓库管理系统（进销存管理系统），是国外网友开发，由 [Louishe](https:www.louishe.com) 翻译的中文版。该应用程序最初由** Saeed Nawaz **创建，使用 [php](http:php.net) ，[mysql](https:www.mysql.com) 和 [bootstrap](http:getbootstrap.com) 。
 
 ![images](https://www.louishe.com/wp-content/uploads/2019/04/12.png)
 ![images](https://www.louishe.com/wp-content/uploads/2019/04/13.png)
@@ -57,13 +57,16 @@
 
 5.然后输入 ** username ** 和 ** password ** 进行登录：
 
-   管理员|特别用户|默认用户
-   --------------------- | ----------------------- | -------------------
-   **用户名**：admin | **用户名**：special| **用户名**：user
-   **密码**：admin | **密码**：special| **密码**：user
+管理员|特别用户|默认用户
+
+**用户名**：admin | **用户名**：special| **用户名**：user
+
+**密码**：admin | **密码**：special| **密码**：user
 
 祝你好运！
 
 ### 支持或联系
 
 对于该项目有任何疑问，可以联系我们。 公司官网 [听可科技](https:www.tkwlkj.com) or [技术支持Blog](https:louishe.com) ,在这个Blog你将获得一些帮助！
+
+![images](https://www.louishe.com/wp-content/uploads/2019/03/louishe_wx.jpg)
