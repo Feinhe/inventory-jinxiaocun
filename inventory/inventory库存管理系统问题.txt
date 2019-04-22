@@ -1,0 +1,18 @@
+1、解决速度加载问题：
+答：在\layouts\footer.php文件中加载了<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>，而这个JS只有翻墙才能加载，所以把该JS拷贝到\libs\Js文件夹下保存，在footer.php中引用本地的jquery.min.js。
+2、解决汉化问题：
+答：系统本身为全英文，汉化只需要将文件中对应的英文替换成汉字即可。所有替换文件在文件夹\layouts\和根目录中。
+3、最新版下载地址：https://github.com/zaisahil/inventory
+4、配置说明：
+
+①将ims_db_dump.sql导入/加载到您的mysql数据库中。这应该建立数据库系统的基本结构。
+
+②修改includes / config.php并更改变量以匹配您的主机，数据库，用户名和密码。
+
+③更改uploads文件夹中的所有文件夹权限，或者将它们添加到组呼（www如果可用）或777。
+
+④然后输入用户名和密码进行登录：
+
+管理员	        特别用户	        默认用户
+用户名：admin	用户名：special	用户名：user
+密码：admin	    密码：special	密码：user
