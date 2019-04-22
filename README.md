@@ -1,10 +1,20 @@
-## Welcome to GitHub Pages
+## 欢迎来到 简易仓库管理系统(inventory) 【中文版】
 
-You can use the [editor on GitHub](https://github.com/Feinhe/Tingke/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+这是一套建议的仓库管理系统，是国外网友开发，由 Louis He （https://www.louishe.com）翻译的中文版。
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
+### 仪表盘
+### 用户管理
+#### 管理用户
+#### 管理组
+### 产品分类
+### 产品
+#### 管理产品
+#### 新增产品
+### 图片
+### 销售
+#### 管理销售
+#### 新增销售
+### 销售报告
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
